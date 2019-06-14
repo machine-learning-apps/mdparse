@@ -11,7 +11,7 @@ This is so markdown information is not lost.  For example, a list block is enclo
 - strikethrough: xxxdelb/xxxdele
 - horizontal rule: xxxhr
 - {large, medium, small} headers: annotated with xxxh{l,m,s}.  H1=large, H2-3=medium, H4-6=small.
--
+
 
 ## 2. Discard superflous information
 
@@ -23,6 +23,8 @@ GitHub issues often contain a large stack trace, or a large table with data.  Th
 - Images: the image is discarded but the file extension and metadata about the image (available to screenreader) is extracted.
 - IP Addresses, extremely long numbers are marked as xxunk
 
+
+This parser works by converting markdown to HTML then converting the HTML (along with some of the HTML tags, in certain cases) to text.
 
 # Examples
 
