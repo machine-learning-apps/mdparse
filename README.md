@@ -39,3 +39,5 @@ This parser works by converting markdown to HTML then converting the HTML (along
 # Examples
 
 See [/notebooks/Demo.ipynb](/notebooks/Demo.ipynb) for an example of the transformations this parser does on a markdown file.
+
+![](images/Demo.png)
