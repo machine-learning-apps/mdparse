@@ -198,7 +198,7 @@ class md:
     # code blocks
     code = partial(enclose.__func__, ' xxxcdb ', ' xxxcde ', 'code', 2)
     # paragraph blocks (plain text)
-    txt =  partial(prepend.__func__, '', 'p')
+    txt =  partial(prepend.__func__, '', 'xxxp')
     # block quotes
     bqt =  partial(enclose.__func__, 'xxxqb', 'xxxqe', 'blockquote', 3)
     # strikethrough
