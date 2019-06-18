@@ -65,7 +65,7 @@ setup(
                   'pytest-xdist',
                   'pytest-cov'],
     },
-    download_url='https://github.com/machine-learning-apps/mdparse/archive/0.10.zip',
+    download_url='https://github.com/machine-learning-apps/mdparse/archive/v.10.zip',
     classifiers=[
         'Development Status :: 1 - Planning',
         'Programming Language :: Python :: 3.7',
