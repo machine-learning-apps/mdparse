@@ -36,6 +36,10 @@ This parser works by converting markdown to HTML then converting the HTML (along
 
 `pip install mdparse`
 
+# Warning
+
+This library makes extremely opinionated choices on how to parse markdown and filter information.  This library is for experimental purposes only, and may not be appropriate for every problem.  Please use with caution.
+
 # Examples
 
 See [/notebooks/Demo.ipynb](/notebooks/Demo.ipynb) for an example of the transformations this parser does on a markdown file:
