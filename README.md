@@ -1,3 +1,8 @@
+[![GitHub license](https://img.shields.io/github/license/machine-learning-apps/mdparse.svg)](https://github.com/machine-learning-apps/mdparse/blob/master/LICENSE) 
+[![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)
+[![PyPI version](https://badge.fury.io/py/mdparse.svg)](https://badge.fury.io/py/mdparse)
+
+
 # A Parser That Adds Special Identifiers To Markdown Files For Deep Learning
 
 GitHub contains a large corpus data that is amenable for NLP, in the form of Issues, READMEs, pull request comments and other items. However, this text is often accompanies by markdown which allows the user to specify styling (bold, underline, headings) and specialized formatting (code blocks, tables, block quotes, hyperlinks).  This library has two goals:
