@@ -36,9 +36,9 @@ This parser works by converting markdown to HTML then converting the HTML (along
 
 `pip install mdparse`
 
-# Warning
+### Caveats
 
-This library makes extremely opinionated choices on how to parse markdown and filter information.  This library is for experimental purposes only, and may not be appropriate for every problem.  Please use with caution.
+This library makes extremely opinionated choices on how to parse markdown and filter information.  This library is for experimental purposes only, and may not be appropriate for every problem.  Please use with caution.  The intended use case of this parser is to train a language model over a large corpus of GitHub Isssues for transfer learning. 
 
 # Examples
 
