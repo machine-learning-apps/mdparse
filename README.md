@@ -31,6 +31,11 @@ GitHub issues often contain a large stack trace, or a large table with data.  Th
 
 This parser works by converting markdown to HTML then converting the HTML (along with some of the HTML tags, in certain cases) to text.
 
+
+# Installation
+
+`pip install mdparse`
+
 # Examples
 
 See [/notebooks/Demo.ipynb](/notebooks/Demo.ipynb) for an example of the transformations this parser does on a markdown file.
