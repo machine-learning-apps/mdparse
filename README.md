@@ -44,6 +44,4 @@ The primary use case of this parser has been to prepare a large corpus of GitHub
 
 # Examples
 
-See [/notebooks/Demo.ipynb](/notebooks/Demo.ipynb) for an example of the transformations this parser does on a markdown file:
-
-<img src="https://github.com/machine-learning-apps/mdparse/blob/master/images/demo.png" width="739" height="1479">
+See [/notebooks/Demo.ipynb](/notebooks/Demo.ipynb) for an example of the transformations this parser does on a markdown file.
