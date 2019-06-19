@@ -187,7 +187,12 @@ class md:
         text = regex.sub(json_regex, ' xxxjson ', text)
         
         return text
-            
+
+    @staticmethod
+    def strip(text:str) -> str:
+        """get rid of whitespace in beginning and end of lines"""
+        return '\n'.join([s.strip() for s in text.split('\n') if s.strip()])
+
     ### transformations that are the same from factory functions
     # large headers: h1
     hL =   partial(prepend.__func__, 'xxxhl', 'h1')
@@ -196,7 +201,7 @@ class md:
     # small headers: h4, h5, h6
     hS =   partial(prepend.__func__, 'xxxhs', ['h4', 'h5', 'h6'])
     # code blocks
-    code = partial(enclose.__func__, ' xxxcdb ', ' xxxcde ', 'code', 2)
+    code = partial(enclose.__func__, ' xxxcdb ', ' xxxcde\n ', 'code', 2)
     # paragraph blocks (plain text)
     txt =  partial(prepend.__func__, '', 'xxxp')
     # block quotes
@@ -209,4 +214,4 @@ class md:
 
 transform_pre_rules = [md.parse, md.hL, md.hM, md.hS, md.lst, md.bqt, 
                        md.code, md.tbl, md.st, md.txt, md.lnk, md.img, 
-                       md.hr, md.get_text, md.sym]
+                       md.hr, md.get_text, md.sym, md.strip]

@@ -4,7 +4,7 @@ from setuptools import find_packages
 setup(
     name='mdparse',
     packages=find_packages(),
-    version='0.10',
+    version='0.12',
     description='Parsing markdown files for deep learning.',
     author='Hamel Husain',
     author_email='hamel.husain@gmail.com',
@@ -65,7 +65,7 @@ setup(
                   'pytest-xdist',
                   'pytest-cov'],
     },
-    download_url='https://github.com/machine-learning-apps/mdparse/archive/v.10.zip',
+    download_url='https://github.com/machine-learning-apps/mdparse/archive/v.12.zip',
     classifiers=[
         'Development Status :: 1 - Planning',
         'Programming Language :: Python :: 3.7',
