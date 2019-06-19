@@ -1,5 +1,6 @@
 [![GitHub license](https://img.shields.io/github/license/machine-learning-apps/mdparse.svg)](https://github.com/machine-learning-apps/mdparse/blob/master/LICENSE) 
 [![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)
+[![PyPI version](https://badge.fury.io/py/mdparse.svg)](https://badge.fury.io/py/mdparse)
 
 
 # A Parser That Adds Special Identifiers To Markdown Files For Deep Learning
