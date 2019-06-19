@@ -18,7 +18,7 @@ This is so markdown information is not lost.  For example, a list block is enclo
 - {large, medium, small} headers: annotated with xxxh{l,m,s}.  H1=large, H2-3=medium, H4-6=small.
 
 
-## 2. Discard superflous information
+## 2. Discard superfluous information
 
 GitHub issues often contain a large stack trace, or a large table with data.  This library comes equipped with sensible defaults to surface the most relevant information and discard what would otherwhise be lots of characters for a machine learning algorithm to handle:
 
