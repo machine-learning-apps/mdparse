@@ -36,8 +36,14 @@ This parser works by converting markdown to HTML then converting the HTML (along
 
 `pip install mdparse`
 
+### Caveats
+
+This library makes extremely opinionated choices on how to parse markdown and filter information.  This library is for experimental purposes only, and may not be appropriate for every problem.  Please use with caution.  
+
+The primary use case of this parser has been to prepare a large corpus of GitHub Issue data for a language model. However, we envision this parser would be applicable to other machine learning tasks involving the extraction of features from the text of GitHub Issues, Readme files, or pull request comments.
+
 # Examples
 
-See [/notebooks/Demo.ipynb](/notebooks/Demo.ipynb) for an example of the transformations this parser does on a markdown file.
+See [/notebooks/Demo.ipynb](/notebooks/Demo.ipynb) for an example of the transformations this parser does on a markdown file:
 
-![](images/Demo.png)
+<img src="https://github.com/machine-learning-apps/mdparse/blob/master/images/demo.png" width="739" height="1479">
